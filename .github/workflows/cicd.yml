@@ -18,8 +18,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn compile
-      
- 
               
     - name: Gitleaks Installation
       run: sudo apt install gitleaks -y
